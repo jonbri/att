@@ -71,13 +71,7 @@ export function AsciiChart({
   ];
 
   return (
-    <pre
-      style={{
-        fontFamily: "monospace",
-        fontSize: "0.85rem",
-        lineHeight: "1.3",
-      }}
-    >
+    <pre>
       {lines.map((line, idx) => (
         <React.Fragment key={idx}>
           {line}
